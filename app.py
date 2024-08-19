@@ -65,7 +65,7 @@ Always remember:
 
     return agent_id
 
-query = st.text_area("Give your style preference, room type , budget , space dimensions and other specifics if any.")
+query = st.text_area("Give your style preference, room type , budget , space dimensions and other specifics like brand preference etc.")
 
 if st.button("Assist!"):
     agent = create_agent()
