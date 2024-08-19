@@ -14,7 +14,7 @@ st.set_page_config(
     page_icon="lyzr-logo-cut.png",
 )
 
-st.title("Home Décor Style Assistant")
+st.title("Home Décor Style Assistant🏠")
 st.markdown("### Welcome to the Home Décor Style Assistant!")
 
 Agent = LyzrAgent(
